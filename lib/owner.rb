@@ -60,11 +60,11 @@ class Owner
   end
   
   def walk_dogs
-    self.dogs.each{|d| d.mood ="happy"}
+    self.dogs.each{|d| d.mood ="happy"} #Each of MYself dogs mood is happy because I walk them!
   end
   
   def feed_cats
-    self.cats.each{|c| c.mood="happy"}
+    self.cats.each{|c| c.mood="happy"} #Each of Myself cats mood is happy because I feed them!
   end
   
   def pets 
