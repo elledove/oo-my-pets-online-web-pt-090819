@@ -72,7 +72,8 @@ class Owner
   end
   def sell_pets
     self.pets.each{|p| p.mood = "nervous"}
-    binding.pry
+    pets.owner.each{|o| o.delete}
+    #binding.pry
   end
   
   
