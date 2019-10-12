@@ -71,11 +71,11 @@ class Owner
     pets = dogs + cats
   end
   def sell_pets
-    self.pets.each{|p| p.mood = "nervous"}
-    pets.each {|o| o.owner= nil }
+    self.pets.each{|p| p.mood = "nervous"} #Each of MYself pets mood will now be "nervous"
+    pets.each {|o| o.owner = nil } #Each pet that has me  an owner equal it to nil since I will be selling them.
     
-    #binding.pry
   end
+  
   
   
     
