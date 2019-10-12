@@ -72,10 +72,7 @@ class Owner
   end
   def sell_pets
     self.pets.each{|p| p.mood = "nervous"}
-    if
-    self.pets == self
-    return nil
-  end
+    pets.each {|o| o.owner= nil }
     
     #binding.pry
   end
