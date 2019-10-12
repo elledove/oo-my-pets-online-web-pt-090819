@@ -59,7 +59,7 @@ class Owner
     Dog.new(name, self)
   end
   
-  def walk_dog
+  def walk_dogs
     self.Dog.each{|d| d.mood("happy")}
   end
   
