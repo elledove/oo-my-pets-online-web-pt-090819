@@ -70,7 +70,9 @@ class Owner
   def pets 
     pets = dog + cat
   end
-  
+  def sell_pets
+    
+  end
     
   
 end
