@@ -73,7 +73,7 @@ class Owner
   def sell_pets
     self.pets.each{|p| p.mood = "nervous"}
     if
-    pets.owner.name == self
+    self.pets == self
     return nil
   end
     
