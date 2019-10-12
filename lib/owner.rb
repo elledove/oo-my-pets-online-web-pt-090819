@@ -71,7 +71,7 @@ class Owner
     pets = dog + cat
   end
   def sell_pets
-    
+    binding.pry
   end
     
   
