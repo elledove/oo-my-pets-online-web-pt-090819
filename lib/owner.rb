@@ -68,7 +68,7 @@ class Owner
   def pets 
     pets = dog + cat
   end
-  deg
+  
     
   
 end
